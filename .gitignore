@@ -3,6 +3,9 @@
 
 # Ignore Python bytecode files
 __pycache__/
-migrations/
+**/migrations/
+**/media/
+**/static/
+
 *.pyc
 *.pyo

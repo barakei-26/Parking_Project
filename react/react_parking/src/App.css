@@ -1,0 +1,196 @@
+.pk-slotCard {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 200px;
+}
+
+.pk-slotCard-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+
+}
+
+.pk-slotCard-tittle {
+    font-family: system-ui;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.pk-slotCard-reservationButton {
+    width: 80%; /* Button takes full width of its parent */
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bc {
+    align-items: center;
+    display: flex;
+    padding-right: 10px;
+    width: 80%;
+    height: 200px;
+    border: 4px solid black;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.bc-body {
+    margin-left: 5px;
+    padding: 0%;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.bc-body-lotImageContainer {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+
+}
+
+.bc-body-lotImageContainer-image {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.bc-aside {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bc-aside-name {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.bc-aside-slots-slotNumber {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.bc-aside-address{
+    font-size: 1.2rem;
+    align-items: center;
+    width: fit-content;
+    align-items: center;
+    display: inline-flex;    
+    border: solid gray;
+    border-radius: 8px;
+    width: 80%;
+}
+
+.bc-aside-address-text {
+    font-size: 1rem;
+    margin: 2px;
+    height: fit-content;
+}
+
+.bc-aside-address-img{
+    margin-top: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.bc-aside-slots {
+    display: inline-flex;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+}
+
+.bc-aside-slots-info{
+    height: 100%;
+    padding-right: 10px;
+    display: inline-flex;
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+.bc-aside-slots-buttonContainer{
+    height: 80%;
+}
+
+.bc-aside-slots-searchButton {
+    margin-left: 5px;
+    height: 100%;
+    width: 40px;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.bc-aside-slots-searchButton-img {
+    height: 100%;
+    width: 100%;
+}
+
+.bc-aside-slots-slotIcon {
+    width: 40px;
+    height: 90%;
+    margin: 2px;
+
+}
+
+.bc-aside-slots-slotNumber{
+    padding: 5%;
+    
+}
+
+
+@media (max-width: 400px) {
+
+    .bc{
+        width: 80%; 
+        height: fit-content;   
+    }
+    
+    .bc-body{
+        width: fit-content; 
+        height: fit-content; 
+    }
+
+    .bc-body-lotImageContainer {
+        margin-bottom: 5px;
+    }
+     
+    .bc-body-lotImageContainer-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bc-aside-name{
+        font-size: 1rem;
+    }
+
+    .bc-aside-address-img, .bc-aside-slots-searchButton-img {
+        width: 20px;
+        height: 20px;
+        margin: 0;
+        padding: 0;    
+    }
+
+    .bc-aside-slots-slotIcon {
+        width: 30px;
+        height: 30px;
+    } 
+
+    .bc-aside-address-text {
+        font-size: 0.5rem;
+    }
+
+    .bc-aside-slots-slotNumber{
+        font-size: 1rem;
+    }
+}
